@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="Strings.Designer.cs" AutoGen="True" DesignTime="True" DependentUpon="Strings.resx" />
+    <EmbeddedResource Update="Strings.resx" Generator="ResXFileCodeGenerator" LastGenOutput="Strings.Designer.cs" />
+    <EmbeddedResource Update="Strings.*.resx" Generator="" />
+  </ItemGroup>
+</Project>
